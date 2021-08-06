@@ -1,3 +1,14 @@
+##########################################################################################
+    
+                A primeira consulta retorna as demais consultas
+                usadas para identificar os customfields, além de 
+                avaliar se existe um retorno em item ou value.
+                
+                        Dúvidas é só chamar! 
+
+##########################################################################################
+
+
 /*
 
 -- Consulta usada como base para montar a consulta final
