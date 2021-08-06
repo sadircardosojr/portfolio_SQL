@@ -31,7 +31,7 @@ SELECT tk.number                                                             AS
                  WHEN 16 THEN 'DropoutCall'
                  WHEN 17 THEN 'Acesso remoto'
                  WHEN 18 THEN 'WhatsApp'
-                 WHEN 19 THEN 'MovideskIntegration'
+                 WHEN 19 THEN 'Integration'
                  WHEN 20 THEN 'ZenviaChat'
                  ELSE 'NotAnsweredCall'
                END)                                                          AS
