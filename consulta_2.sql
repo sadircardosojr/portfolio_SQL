@@ -1,3 +1,13 @@
+##########################################################################################
+    
+              Executa uma sequência de tratamentos de dados 
+              e retorna uma tabela tratada. Além de buscar 
+              e relacionar dados de várias tabelas diferentes.
+              
+                        Dúvidas é só chamar! 
+
+##########################################################################################
+
 SELECT tk.number                                                             AS
        'Número',
        tk.serviceid,
@@ -205,7 +215,7 @@ SELECT tk.number                                                             AS
                        ON tcfi.ticketcustomfieldvalueid = tcfv.id
                INNER JOIN customfielditem cfi WITH (nolock)
                        ON tcfi.customfielditemid = cfi.id
-        WHERE  tcfv.customfieldid = 11754
+        WHERE  tcfv.customfieldid = 11111
                AND tcfv.tenantid = 2
                AND tcfv.ticketid = tk.id
                AND tcfv.isdeleted = 0)                                       AS
