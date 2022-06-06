@@ -4,9 +4,7 @@
                 levantar dados para estruturar uma string, que 
                 também é uma consulta e que necessita de 
                 colunas dinâmicas para funcionar corretamente.
-                
-                        Dúvidas é só chamar! 
-
+		
 ##########################################################################################
 
 
